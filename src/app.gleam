@@ -250,7 +250,7 @@ fn view_index() -> List(Element(msg)) {
   [
     html.p([attribute.class("mt-14")], [
       html.text(
-        "Hello, I'm Shahbozbek Hakimov. This is my personal website for sharing my progress and thoughts. Although I don't have much to show yet, I hope to fill this space with interesting content soon. In the meantime, check out my resume ",
+        "Hello, I'm Shahbozbek Hakimov. This is my personal website for sharing my progress and thoughts. I hope to fill this space with interesting content soon. In the meantime, check out my resume ",
       ),
       link(Resume, "(or click here):"),
     ]),

@@ -4586,7 +4586,7 @@ function view_index() {
       toList([class$("mt-14")]),
       toList([
         text3(
-          "Hello, I'm Shahbozbek Hakimov. This is my personal website for sharing my progress and thoughts. Although I don't have much to show yet, I hope to fill this space with interesting content soon. In the meantime, check out my resume "
+          "Hello, I'm Shahbozbek Hakimov. This is my personal website for sharing my progress and thoughts. I hope to fill this space with interesting content soon. In the meantime, check out my resume "
         ),
         link(new Resume2(), "(or click here):")
       ])
