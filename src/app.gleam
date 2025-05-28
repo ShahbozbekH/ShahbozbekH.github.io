@@ -57,6 +57,7 @@ type Route {
   Posts
   PostById(id: Int)
   About
+  Resume
   /// It's good practice to store whatever `Uri` we failed to match in case we
   /// want to log it or hint to the user that maybe they made a typo.
   NotFound(uri: Uri)
@@ -89,6 +90,8 @@ fn href(route: Route) -> Attribute(msg) {
     Index -> "/"
     About -> "https://github.com/ShahbozbekH"
     Posts -> "https://www.linkedin.com/in/shahbozhakimov/"
+    Resume ->
+      "https://shahbozbekh.github.io/priv/static/media/HakimovShahbozbek.pdf"
     PostById(post_id) -> "/post/" <> int.to_string(post_id)
     NotFound(_) -> "/404"
   }
@@ -198,11 +201,26 @@ fn view(model: Model) -> Element(Msg) {
         Index -> view_index()
         Posts -> view_posts(model)
         PostById(post_id) -> view_post(model, post_id)
+        Resume -> view_resume()
         About -> view_about()
         NotFound(_) -> view_not_found()
       }
     }),
   ])
+}
+
+fn view_resume() -> List(Element(msg)) {
+  [
+    title("Resume"),
+    paragraph("You can find my resume here: "),
+    html.a(
+      [
+        href(Resume),
+        attribute.class("text-purple-600 hover:underline cursor-pointer"),
+      ],
+      [html.text("HakimovShahbozbek.pdf")],
+    ),
+  ]
 }
 
 fn view_header_link(
@@ -232,14 +250,13 @@ fn view_index() -> List(Element(msg)) {
   [
     html.p([attribute.class("mt-14")], [
       html.text(
-        "Hello, I'm Shahbozbek Hakimov. This is my personal website for sharing my progress and thoughts. Although I don't have much to show yet, I hope to fill this space with interesting content soon. In the meantime, check out my resume:",
+        "Hello, I'm Shahbozbek Hakimov. This is my personal website for sharing my progress and thoughts. Although I don't have much to show yet, I hope to fill this space with interesting content soon. In the meantime, check out my resume ",
       ),
+      link(Resume, "(or click here):"),
     ]),
-    html.embed([
+    html.img([
       attribute.class("mx-auto size-[32rem]"),
-      attribute.src(
-        "http://shahbozbekh.github.io/priv/static/media/HakimovShahbozbek.pdf",
-      ),
+      attribute.src("http://shahbozbekh.github.io/priv/static/media/0.png"),
     ]),
   ]
 }

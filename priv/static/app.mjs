@@ -4143,9 +4143,6 @@ function a(attrs, children) {
 function img(attrs) {
   return element2("img", attrs, empty_list);
 }
-function embed(attrs) {
-  return element2("embed", attrs, empty_list);
-}
 
 // build/dev/javascript/lustre/lustre/runtime/server/runtime.mjs
 var EffectDispatchedMessage = class extends CustomType {
@@ -4397,6 +4394,8 @@ var PostById = class extends CustomType {
 };
 var About = class extends CustomType {
 };
+var Resume2 = class extends CustomType {
+};
 var NotFound = class extends CustomType {
   constructor(uri) {
     super();
@@ -4440,6 +4439,8 @@ function href2(route) {
     _block = "https://github.com/ShahbozbekH";
   } else if (route instanceof Posts) {
     _block = "https://www.linkedin.com/in/shahbozhakimov/";
+  } else if (route instanceof Resume2) {
+    _block = "https://shahbozbekh.github.io/priv/static/media/HakimovShahbozbek.pdf";
   } else if (route instanceof PostById) {
     let post_id = route.id;
     _block = "/post/" + to_string(post_id);
@@ -4480,26 +4481,6 @@ function view_header_link(target, current, text4) {
     ]),
     toList([a(toList([href2(target)]), toList([text3(text4)]))])
   );
-}
-function view_index() {
-  return toList([
-    p(
-      toList([class$("mt-14")]),
-      toList([
-        text3(
-          "Hello, I'm Shahbozbek Hakimov. This is my personal website for sharing my progress and thoughts. Although I don't have much to show yet, I hope to fill this space with interesting content soon. In the meantime, check out my resume:"
-        )
-      ])
-    ),
-    embed(
-      toList([
-        class$("mx-auto size-[32rem]"),
-        src(
-          "http://shahbozbekh.github.io/priv/static/media/HakimovShahbozbek.pdf"
-        )
-      ])
-    )
-  ]);
 }
 function title(title2) {
   return h2(
@@ -4558,6 +4539,19 @@ function paragraph(text4) {
     toList([text3(text4)])
   );
 }
+function view_resume() {
+  return toList([
+    title("Resume"),
+    paragraph("You can find my resume here: "),
+    a(
+      toList([
+        href2(new Resume2()),
+        class$("text-purple-600 hover:underline cursor-pointer")
+      ]),
+      toList([text3("HakimovShahbozbek.pdf")])
+    )
+  ]);
+}
 function view_about() {
   return toList([
     title("Me"),
@@ -4585,6 +4579,25 @@ function link(target, title2) {
     ]),
     toList([text3(title2)])
   );
+}
+function view_index() {
+  return toList([
+    p(
+      toList([class$("mt-14")]),
+      toList([
+        text3(
+          "Hello, I'm Shahbozbek Hakimov. This is my personal website for sharing my progress and thoughts. Although I don't have much to show yet, I hope to fill this space with interesting content soon. In the meantime, check out my resume "
+        ),
+        link(new Resume2(), "(or click here):")
+      ])
+    ),
+    img(
+      toList([
+        class$("mx-auto size-[32rem]"),
+        src("http://shahbozbekh.github.io/priv/static/media/0.png")
+      ])
+    )
+  ]);
 }
 function view_post(model, post_id) {
   let $ = map_get(model.posts, post_id);
@@ -4692,6 +4705,8 @@ function view(model) {
           } else if ($ instanceof PostById) {
             let post_id = $.id;
             return view_post(model, post_id);
+          } else if ($ instanceof Resume2) {
+            return view_resume();
           } else if ($ instanceof About) {
             return view_about();
           } else {
