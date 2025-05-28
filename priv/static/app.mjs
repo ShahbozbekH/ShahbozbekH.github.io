@@ -4495,7 +4495,7 @@ function view_index() {
       toList([
         class$("mx-auto size-[32rem]"),
         src(
-          "http://127.0.0.1:1234/priv/static/media/HakimovShahbozbek.pdf"
+          "http://shahbozbekh.github.io/priv/static/media/HakimovShahbozbek.pdf"
         )
       ])
     )
@@ -4655,7 +4655,7 @@ function view(model) {
                   img(
                     toList([
                       src(
-                        "http://127.0.0.1:1234/priv/static/media/8star.png"
+                        "http://shahbozbekh.github.io/priv/static/media/8star.png"
                       )
                     ])
                   )
@@ -4671,7 +4671,7 @@ function view(model) {
                   img(
                     toList([
                       src(
-                        "http://127.0.0.1:1234/priv/static/media/crescent.png"
+                        "http://shahbozbekh.github.io/priv/static/media/crescent.png"
                       )
                     ])
                   )
