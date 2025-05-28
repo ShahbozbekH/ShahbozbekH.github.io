@@ -168,7 +168,9 @@ fn view(model: Model) -> Element(Msg) {
           ],
           [
             html.img([
-              attribute.src("http://127.0.0.1:1234/priv/static/media/8star.png"),
+              attribute.src(
+                "https://shahbozbekh.github.io/priv/static/media/8star.png",
+              ),
             ]),
           ],
         ),
@@ -181,7 +183,7 @@ fn view(model: Model) -> Element(Msg) {
           [
             html.img([
               attribute.src(
-                "http://127.0.0.1:1234/priv/static/media/crescent.png",
+                "https://shahbozbekh.github.io/priv/static/media/crescent.png",
               ),
             ]),
           ],
@@ -236,7 +238,7 @@ fn view_index() -> List(Element(msg)) {
     html.embed([
       attribute.class("mx-auto size-[32rem]"),
       attribute.src(
-        "http://127.0.0.1:1234/priv/static/media/HakimovShahbozbek.pdf",
+        "https://shahbozbekh.github.io/priv/static/media/HakimovShahbozbek.pdf",
       ),
     ]),
   ]
