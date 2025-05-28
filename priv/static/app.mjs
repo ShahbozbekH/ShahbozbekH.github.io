@@ -4593,7 +4593,7 @@ function view_index() {
     ),
     img(
       toList([
-        class$("mx-auto size-[32rem]"),
+        class$("mx-auto "),
         src("http://shahbozbekh.github.io/priv/static/media/0.png")
       ])
     )
@@ -4677,7 +4677,7 @@ function view(model) {
               a(
                 toList([
                   class$(
-                    "mx-auto flex justify-center max-w-9 ml-31 items-center rotate-[-38deg]"
+                    "mx-auto flex justify-center max-w-9 ml-[9.6rem] items-center rotate-[-38deg]"
                   )
                 ]),
                 toList([

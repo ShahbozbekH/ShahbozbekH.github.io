@@ -558,6 +558,10 @@ video {
   margin-bottom: 4rem;
 }
 
+.ml-\[9\.6rem\] {
+  margin-left: 9.6rem;
+}
+
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -576,11 +580,6 @@ video {
 
 .flex {
   display: flex;
-}
-
-.size-\[32rem\] {
-  width: 32rem;
-  height: 32rem;
 }
 
 .max-w-10 {

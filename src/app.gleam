@@ -180,7 +180,7 @@ fn view(model: Model) -> Element(Msg) {
         html.a(
           [
             attribute.class(
-              "mx-auto flex justify-center max-w-9 ml-31 items-center rotate-[-38deg]",
+              "mx-auto flex justify-center max-w-9 ml-[9.6rem] items-center rotate-[-38deg]",
             ),
           ],
           [
@@ -255,7 +255,7 @@ fn view_index() -> List(Element(msg)) {
       link(Resume, "(or click here):"),
     ]),
     html.img([
-      attribute.class("mx-auto size-[32rem]"),
+      attribute.class("mx-auto "),
       attribute.src("http://shahbozbekh.github.io/priv/static/media/0.png"),
     ]),
   ]
