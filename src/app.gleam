@@ -143,55 +143,64 @@ fn update(model: Model, msg: Msg) -> #(Model, Effect(Msg)) {
 // VIEW ------------------------------------------------------------------------
 
 fn view(model: Model) -> Element(Msg) {
-  html.div([attribute.class("mx-auto max-w-3xl px-32")], [
+  html.div([attribute.class("mx-auto max-w-3xl")], [
     html.nav([attribute.class("flex justify-center items-center my-16")], [
-      html.h1([attribute.class("text-black-600 size-auto font-normal md:text-4xl sm:text-base")], [
-        html.a([href(Index)], [html.text("Shahbozbek Hakimov")]),
-        html.ul([attribute.class("flex justify-center space-x-8 text-xl")], [
-          html.div(
-            [attribute.class("text-blue-600 border-b-2 border-blue-600")],
+      html.h1(
+        [attribute.class("text-black-600 size-auto font-normal text-4xl")],
+        [
+          html.a([href(Index)], [html.text("Shahbozbek Hakimov")]),
+          html.ul([attribute.class("flex justify-center space-x-8 text-xl")], [
+            html.div(
+              [attribute.class("text-blue-600 border-b-2 border-blue-600")],
+              [
+                view_header_link(
+                  current: model.route,
+                  to: Posts,
+                  label: "LinkedIn",
+                ),
+              ],
+            ),
+            html.div(
+              [attribute.class("text-black-600 border-b-2 border-black-600")],
+              [
+                view_header_link(
+                  current: model.route,
+                  to: About,
+                  label: "Github",
+                ),
+              ],
+            ),
+          ]),
+          html.a(
             [
-              view_header_link(
-                current: model.route,
-                to: Posts,
-                label: "LinkedIn",
+              attribute.class(
+                "mx-auto flex justify-center max-w-10 mt-4 items-center animate-[spin_3s_linear_infinite]",
               ),
             ],
+            [
+              html.img([
+                attribute.src(
+                  "http://shahbozbekh.github.io/priv/static/media/8star.png",
+                ),
+              ]),
+            ],
           ),
-          html.div(
-            [attribute.class("text-black-600 border-b-2 border-black-600")],
-            [view_header_link(current: model.route, to: About, label: "Github")],
+          html.a(
+            [
+              attribute.class(
+                "mx-auto flex justify-center max-w-9 items-center rotate-[-38deg]",
+              ),
+            ],
+            [
+              html.img([
+                attribute.src(
+                  "http://shahbozbekh.github.io/priv/static/media/crescent.png",
+                ),
+              ]),
+            ],
           ),
-        ]),
-        html.a(
-          [
-            attribute.class(
-              "mx-auto flex justify-center max-w-10 mt-4 items-center animate-[spin_3s_linear_infinite]",
-            ),
-          ],
-          [
-            html.img([
-              attribute.src(
-                "http://shahbozbekh.github.io/priv/static/media/8star.png",
-              ),
-            ]),
-          ],
-        ),
-        html.a(
-          [
-            attribute.class(
-              "mx-auto flex justify-center max-w-9 items-center rotate-[-38deg]",
-            ),
-          ],
-          [
-            html.img([
-              attribute.src(
-                "http://shahbozbekh.github.io/priv/static/media/crescent.png",
-              ),
-            ]),
-          ],
-        ),
-      ]),
+        ],
+      ),
     ]),
     html.main([attribute.class("my-16")], {
       // Just like we would show different HTML based on some other state in the
@@ -248,7 +257,7 @@ fn view_header_link(
 
 fn view_index() -> List(Element(msg)) {
   [
-    html.p([attribute.class("md:text-base sm:text-sm")], [
+    html.p([attribute.class("text-sm md:px-32")], [
       html.text(
         "Hello, I'm Shahbozbek Hakimov. This is my personal website for sharing my progress and thoughts. I hope to fill this space with interesting content soon. In the meantime, check out my resume ",
       ),
