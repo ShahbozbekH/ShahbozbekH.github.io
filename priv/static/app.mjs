@@ -4583,7 +4583,7 @@ function link(target, title2) {
 function view_index() {
   return toList([
     p(
-      toList([class$("mt-14")]),
+      toList([class$("md:text-base sm:text-sm")]),
       toList([
         text3(
           "Hello, I'm Shahbozbek Hakimov. This is my personal website for sharing my progress and thoughts. I hope to fill this space with interesting content soon. In the meantime, check out my resume "
@@ -4593,7 +4593,7 @@ function view_index() {
     ),
     img(
       toList([
-        class$("mx-auto "),
+        class$("mx-auto"),
         src("http://shahbozbekh.github.io/priv/static/media/0.png")
       ])
     )
@@ -4625,7 +4625,11 @@ function view(model) {
         toList([class$("flex justify-center items-center my-16")]),
         toList([
           h1(
-            toList([class$("text-black-600 font-normal text-4xl")]),
+            toList([
+              class$(
+                "text-black-600 size-auto font-normal md:text-4xl sm:text-base"
+              )
+            ]),
             toList([
               a(
                 toList([href2(new Index2())]),

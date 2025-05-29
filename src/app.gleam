@@ -145,7 +145,7 @@ fn update(model: Model, msg: Msg) -> #(Model, Effect(Msg)) {
 fn view(model: Model) -> Element(Msg) {
   html.div([attribute.class("mx-auto max-w-3xl px-32")], [
     html.nav([attribute.class("flex justify-center items-center my-16")], [
-      html.h1([attribute.class("text-black-600 font-normal text-4xl")], [
+      html.h1([attribute.class("text-black-600 size-auto font-normal md:text-4xl sm:text-base")], [
         html.a([href(Index)], [html.text("Shahbozbek Hakimov")]),
         html.ul([attribute.class("flex justify-center space-x-8 text-xl")], [
           html.div(
@@ -248,14 +248,14 @@ fn view_header_link(
 
 fn view_index() -> List(Element(msg)) {
   [
-    html.p([attribute.class("mt-14")], [
+    html.p([attribute.class("md:text-base sm:text-sm")], [
       html.text(
         "Hello, I'm Shahbozbek Hakimov. This is my personal website for sharing my progress and thoughts. I hope to fill this space with interesting content soon. In the meantime, check out my resume ",
       ),
       link(Resume, "(or click here):"),
     ]),
     html.img([
-      attribute.class("mx-auto "),
+      attribute.class("mx-auto"),
       attribute.src("http://shahbozbekh.github.io/priv/static/media/0.png"),
     ]),
   ]
