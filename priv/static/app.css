@@ -583,10 +583,6 @@ video {
   height: auto;
 }
 
-.max-w-10 {
-  max-width: 2.5rem;
-}
-
 .max-w-3xl {
   max-width: 48rem;
 }

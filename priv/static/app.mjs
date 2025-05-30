@@ -4663,7 +4663,7 @@ function view(model) {
               a(
                 toList([
                   class$(
-                    "mx-auto flex justify-center max-w-10 mt-4 items-center animate-[spin_3s_linear_infinite]"
+                    "mx-auto flex justify-center max-w-9 mt-4 items-center animate-[spin_3s_linear_infinite]"
                   )
                 ]),
                 toList([
