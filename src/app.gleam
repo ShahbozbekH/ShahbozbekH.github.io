@@ -591,7 +591,7 @@ fn view(model: Model) -> Element(Msg) {
             html.div([attribute.class("relative bottom-[101.5px] left-[22px] rotate-[90deg]")],[html.text("𐰼")]),
             html.div([attribute.class("relative bottom-[147.5px] right-[22px] rotate-[270deg]")],[html.text("𐰼")]),
           ]), 
-          html.div([attribute.class("absolute top-[518px] right-[434px] rotate-[45deg] text-3xl  xl:visible")], [
+          html.div([attribute.class("absolute top-[518px] right-[431px] rotate-[45deg] text-3xl  xl:visible")], [
             html.text("𐰬"),
             html.div([attribute.class("relative bottom-[55px] left-[5px]")],[html.text("𐰼")]),   
             html.div([attribute.class("relative bottom-[50px] right-[5px] rotate-[180deg]")],[html.text("𐰼")]), 

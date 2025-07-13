@@ -7461,7 +7461,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[518px] right-[434px] rotate-[45deg] text-3xl  xl:visible"
+                "absolute top-[518px] right-[431px] rotate-[45deg] text-3xl  xl:visible"
               )
             ]),
             toList([
