@@ -7385,7 +7385,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[539px] left-[242px]  text-3xl invisible xl:visible"
+                "absolute top-[518px] left-[191px] rotate-[45deg] text-3xl invisible xl:visible"
               )
             ]),
             toList([
@@ -7423,7 +7423,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[539px] left-[382px]  text-3xl invisible xl:visible"
+                "absolute top-[518px] left-[334px] rotate-[45deg] text-3xl invisible xl:visible"
               )
             ]),
             toList([
@@ -7461,7 +7461,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[539px] right-[382px]  text-3xl invisible xl:visible"
+                "absolute top-[518px] right-[434px] rotate-[45deg] text-3xl  xl:visible"
               )
             ]),
             toList([
@@ -7499,7 +7499,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[539px] right-[242px]  text-3xl invisible xl:visible"
+                "absolute top-[518px] right-[291px] rotate-[45deg] text-3xl  xl:visible"
               )
             ]),
             toList([
