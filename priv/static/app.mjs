@@ -4591,7 +4591,12 @@ function view_index() {
         link(new Resume2(), "(or click here):")
       ])
     ),
-    img(toList([class$("mx-auto")]))
+    img(
+      toList([
+        class$("mx-auto"),
+        src("http://shahbozbekh.github.io/priv/static/media/0.png")
+      ])
+    )
   ]);
 }
 function view_post(model, post_id) {
@@ -6415,7 +6420,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[546px] right-[320.15px] invisible xl:visible"
+                "absolute top-[546px] right-[319px] invisible xl:visible"
               )
             ]),
             toList([
@@ -7461,7 +7466,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[518px] right-[431px] rotate-[45deg] text-3xl  xl:visible"
+                "absolute top-[518px] right-[431px] rotate-[45deg] text-3xl invisible xl:visible"
               )
             ]),
             toList([
@@ -7499,7 +7504,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[518px] right-[291px] rotate-[45deg] text-3xl  xl:visible"
+                "absolute top-[518px] right-[291px] rotate-[45deg] text-3xl invisible xl:visible"
               )
             ]),
             toList([
@@ -8521,7 +8526,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[12px] right-[320px] invisible xl:visible"
+                "absolute top-[12px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8529,7 +8534,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[22px] right-[320px] invisible xl:visible"
+                "absolute top-[22px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8537,7 +8542,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[32px] right-[320px] invisible xl:visible"
+                "absolute top-[32px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8545,7 +8550,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[42px] right-[320px] invisible xl:visible"
+                "absolute top-[42px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8553,7 +8558,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[52px] right-[320px] invisible xl:visible"
+                "absolute top-[52px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8561,7 +8566,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[62px] right-[320px] invisible xl:visible"
+                "absolute top-[62px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8569,7 +8574,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[72px] right-[320px] invisible xl:visible"
+                "absolute top-[72px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8577,7 +8582,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[82px] right-[320px] invisible xl:visible"
+                "absolute top-[82px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8585,7 +8590,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[92px] right-[320px] invisible xl:visible"
+                "absolute top-[92px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8593,7 +8598,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[102px] right-[320px] invisible xl:visible"
+                "absolute top-[102px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8601,7 +8606,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[112px] right-[320px] invisible xl:visible"
+                "absolute top-[112px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8609,7 +8614,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[122px] right-[320px] invisible xl:visible"
+                "absolute top-[122px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8617,7 +8622,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[132px] right-[320px] invisible xl:visible"
+                "absolute top-[132px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8625,7 +8630,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[142px] right-[320px] invisible xl:visible"
+                "absolute top-[142px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8633,7 +8638,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[152px] right-[320px] invisible xl:visible"
+                "absolute top-[152px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8641,7 +8646,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[162px] right-[320px] invisible xl:visible"
+                "absolute top-[162px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8649,7 +8654,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[172px] right-[320px] invisible xl:visible"
+                "absolute top-[172px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8657,7 +8662,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[182px] right-[320px] invisible xl:visible"
+                "absolute top-[182px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8665,7 +8670,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[192px] right-[320px] invisible xl:visible"
+                "absolute top-[192px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8673,7 +8678,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[202px] right-[320px] invisible xl:visible"
+                "absolute top-[202px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8681,7 +8686,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[212px] right-[320px] invisible xl:visible"
+                "absolute top-[212px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8689,7 +8694,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[222px] right-[320px] invisible xl:visible"
+                "absolute top-[222px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8697,7 +8702,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[232px] right-[320px] invisible xl:visible"
+                "absolute top-[232px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8705,7 +8710,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[242px] right-[320px] invisible xl:visible"
+                "absolute top-[242px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8713,7 +8718,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[252px] right-[320px] invisible xl:visible"
+                "absolute top-[252px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8721,7 +8726,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[262px] right-[320px] invisible xl:visible"
+                "absolute top-[262px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8729,7 +8734,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[272px] right-[320px] invisible xl:visible"
+                "absolute top-[272px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8737,7 +8742,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[282px] right-[320px] invisible xl:visible"
+                "absolute top-[282px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8745,7 +8750,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[292px] right-[320px] invisible xl:visible"
+                "absolute top-[292px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8753,7 +8758,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[302px] right-[320px] invisible xl:visible"
+                "absolute top-[302px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8761,7 +8766,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[312px] right-[320px] invisible xl:visible"
+                "absolute top-[312px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8769,7 +8774,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[322px] right-[320px] invisible xl:visible"
+                "absolute top-[322px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8777,7 +8782,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[332px] right-[320px] invisible xl:visible"
+                "absolute top-[332px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8785,7 +8790,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[342px] right-[320px] invisible xl:visible"
+                "absolute top-[342px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8793,7 +8798,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[352px] right-[320px] invisible xl:visible"
+                "absolute top-[352px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8801,7 +8806,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[362px] right-[320px] invisible xl:visible"
+                "absolute top-[362px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8809,7 +8814,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[372px] right-[320px] invisible xl:visible"
+                "absolute top-[372px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8817,7 +8822,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[382px] right-[320px] invisible xl:visible"
+                "absolute top-[382px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8825,7 +8830,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[392px] right-[320px] invisible xl:visible"
+                "absolute top-[392px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8833,7 +8838,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[402px] right-[320px] invisible xl:visible"
+                "absolute top-[402px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8841,7 +8846,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[412px] right-[320px] invisible xl:visible"
+                "absolute top-[412px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8849,7 +8854,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[422px] right-[320px] invisible xl:visible"
+                "absolute top-[422px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8857,7 +8862,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[432px] right-[320px] invisible xl:visible"
+                "absolute top-[432px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8865,7 +8870,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[442px] right-[320px] invisible xl:visible"
+                "absolute top-[442px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8873,7 +8878,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[452px] right-[320px] invisible xl:visible"
+                "absolute top-[452px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8881,7 +8886,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[462px] right-[320px] invisible xl:visible"
+                "absolute top-[462px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8889,7 +8894,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[472px] right-[320px] invisible xl:visible"
+                "absolute top-[472px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8897,7 +8902,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[482px] right-[320px] invisible xl:visible"
+                "absolute top-[482px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8905,7 +8910,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[492px] right-[320px] invisible xl:visible"
+                "absolute top-[492px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8913,7 +8918,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[502px] right-[320px] invisible xl:visible"
+                "absolute top-[502px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8921,7 +8926,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[512px] right-[320px] invisible xl:visible"
+                "absolute top-[512px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8929,7 +8934,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[522px] right-[320px] invisible xl:visible"
+                "absolute top-[522px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8937,7 +8942,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[532px] right-[320px] invisible xl:visible"
+                "absolute top-[532px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8945,7 +8950,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[542px] right-[320px] invisible xl:visible"
+                "absolute top-[542px] right-[320px] invisible xl:visible "
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8953,7 +8958,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[552px] right-[320px] invisible xl:visible"
+                "absolute top-[552px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8961,7 +8966,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[562px] right-[320px] invisible xl:visible"
+                "absolute top-[562px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8969,7 +8974,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[572px] right-[320px] invisible xl:visible"
+                "absolute top-[572px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8977,7 +8982,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[582px] right-[320px] invisible xl:visible"
+                "absolute top-[582px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8985,7 +8990,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[592px] right-[320px] invisible xl:visible"
+                "absolute top-[592px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -8993,7 +8998,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[602px] right-[320px] invisible xl:visible"
+                "absolute top-[602px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9001,7 +9006,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[612px] right-[320px] invisible xl:visible"
+                "absolute top-[612px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9009,7 +9014,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[622px] right-[320px] invisible xl:visible"
+                "absolute top-[622px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9017,7 +9022,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[632px] right-[320px] invisible xl:visible"
+                "absolute top-[632px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9025,7 +9030,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[642px] right-[320px] invisible xl:visible"
+                "absolute top-[642px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9033,7 +9038,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[652px] right-[320px] invisible xl:visible"
+                "absolute top-[652px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9041,7 +9046,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[662px] right-[320px] invisible xl:visible"
+                "absolute top-[662px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9049,7 +9054,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[672px] right-[320px] invisible xl:visible"
+                "absolute top-[672px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9057,7 +9062,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[682px] right-[320px] invisible xl:visible"
+                "absolute top-[682px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9065,7 +9070,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[692px] right-[320px] invisible xl:visible"
+                "absolute top-[692px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9073,7 +9078,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[702px] right-[320px] invisible xl:visible"
+                "absolute top-[702px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9081,7 +9086,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[712px] right-[320px] invisible xl:visible"
+                "absolute top-[712px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9089,7 +9094,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[722px] right-[320px] invisible xl:visible"
+                "absolute top-[722px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9097,7 +9102,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[732px] right-[320px] invisible xl:visible"
+                "absolute top-[732px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9105,7 +9110,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[742px] right-[320px] invisible xl:visible"
+                "absolute top-[742px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9113,7 +9118,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[752px] right-[320px] invisible xl:visible"
+                "absolute top-[752px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9121,7 +9126,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[762px] right-[320px] invisible xl:visible"
+                "absolute top-[762px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9129,7 +9134,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[772px] right-[320px] invisible xl:visible"
+                "absolute top-[772px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9137,7 +9142,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[782px] right-[320px] invisible xl:visible"
+                "absolute top-[782px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9145,7 +9150,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[792px] right-[320px] invisible xl:visible"
+                "absolute top-[792px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9153,7 +9158,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[802px] right-[320px] invisible xl:visible"
+                "absolute top-[802px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9161,7 +9166,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[812px] right-[320px] invisible xl:visible"
+                "absolute top-[812px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9169,7 +9174,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[822px] right-[320px] invisible xl:visible"
+                "absolute top-[822px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9177,7 +9182,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[832px] right-[320px] invisible xl:visible"
+                "absolute top-[832px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9185,7 +9190,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[842px] right-[320px] invisible xl:visible"
+                "absolute top-[842px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9193,7 +9198,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[852px] right-[320px] invisible xl:visible"
+                "absolute top-[852px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9201,7 +9206,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[862px] right-[320px] invisible xl:visible"
+                "absolute top-[862px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9209,7 +9214,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[872px] right-[320px] invisible xl:visible"
+                "absolute top-[872px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9217,7 +9222,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[882px] right-[320px] invisible xl:visible"
+                "absolute top-[882px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9225,7 +9230,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[892px] right-[320px] invisible xl:visible"
+                "absolute top-[892px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9233,7 +9238,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[902px] right-[320px] invisible xl:visible"
+                "absolute top-[902px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9241,7 +9246,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[912px] right-[320px] invisible xl:visible"
+                "absolute top-[912px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9249,7 +9254,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[922px] right-[320px] invisible xl:visible"
+                "absolute top-[922px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9257,7 +9262,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[932px] right-[320px] invisible xl:visible"
+                "absolute top-[932px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9265,7 +9270,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[942px] right-[320px] invisible xl:visible"
+                "absolute top-[942px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9273,7 +9278,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[952px] right-[320px] invisible xl:visible"
+                "absolute top-[952px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9281,7 +9286,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[962px] right-[320px] invisible xl:visible"
+                "absolute top-[962px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9289,7 +9294,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[972px] right-[320px] invisible xl:visible"
+                "absolute top-[972px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9297,7 +9302,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[982px] right-[320px] invisible xl:visible"
+                "absolute top-[982px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9305,7 +9310,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[992px] right-[320px] invisible xl:visible"
+                "absolute top-[992px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9313,7 +9318,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1002px] right-[320px] invisible xl:visible"
+                "absolute top-[1002px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9321,7 +9326,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1012px] right-[320px] invisible xl:visible"
+                "absolute top-[1012px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9329,7 +9334,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1022px] right-[320px] invisible xl:visible"
+                "absolute top-[1022px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9337,7 +9342,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1032px] right-[320px] invisible xl:visible"
+                "absolute top-[1032px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9345,7 +9350,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1042px] right-[320px] invisible xl:visible"
+                "absolute top-[1042px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9353,7 +9358,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1052px] right-[320px] invisible xl:visible"
+                "absolute top-[1052px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9361,7 +9366,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1062px] right-[320px] invisible xl:visible"
+                "absolute top-[1062px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9369,7 +9374,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1072px] right-[320px] invisible xl:visible"
+                "absolute top-[1072px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9377,7 +9382,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1082px] right-[320px] invisible xl:visible"
+                "absolute top-[1082px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9385,7 +9390,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1092px] right-[320px] invisible xl:visible"
+                "absolute top-[1092px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9393,7 +9398,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1102px] right-[320px] invisible xl:visible"
+                "absolute top-[1102px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9401,7 +9406,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1112px] right-[320px] invisible xl:visible"
+                "absolute top-[1112px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9409,7 +9414,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1122px] right-[320px] invisible xl:visible"
+                "absolute top-[1122px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9417,7 +9422,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1132px] right-[320px] invisible xl:visible"
+                "absolute top-[1132px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9425,7 +9430,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1142px] right-[320px] invisible xl:visible"
+                "absolute top-[1142px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9433,7 +9438,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1152px] right-[320px] invisible xl:visible"
+                "absolute top-[1152px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9441,7 +9446,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1162px] right-[320px] invisible xl:visible"
+                "absolute top-[1162px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9449,7 +9454,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1172px] right-[320px] invisible xl:visible"
+                "absolute top-[1172px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9457,7 +9462,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1182px] right-[320px] invisible xl:visible"
+                "absolute top-[1182px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9465,7 +9470,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1192px] right-[320px] invisible xl:visible"
+                "absolute top-[1192px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9473,7 +9478,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1202px] right-[320px] invisible xl:visible"
+                "absolute top-[1202px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9481,7 +9486,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1212px] right-[320px] invisible xl:visible"
+                "absolute top-[1212px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9489,7 +9494,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1222px] right-[320px] invisible xl:visible"
+                "absolute top-[1222px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9497,7 +9502,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1232px] right-[320px] invisible xl:visible"
+                "absolute top-[1232px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9505,7 +9510,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1242px] right-[320px] invisible xl:visible"
+                "absolute top-[1242px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9513,7 +9518,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1252px] right-[320px] invisible xl:visible"
+                "absolute top-[1252px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9521,7 +9526,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1262px] right-[320px] invisible xl:visible"
+                "absolute top-[1262px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9529,7 +9534,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1272px] right-[320px] invisible xl:visible"
+                "absolute top-[1272px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9537,7 +9542,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1282px] right-[320px] invisible xl:visible"
+                "absolute top-[1282px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9545,7 +9550,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1292px] right-[320px] invisible xl:visible"
+                "absolute top-[1292px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9553,7 +9558,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1302px] right-[320px] invisible xl:visible"
+                "absolute top-[1302px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9561,7 +9566,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1312px] right-[320px] invisible xl:visible"
+                "absolute top-[1312px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9569,7 +9574,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1322px] right-[320px] invisible xl:visible"
+                "absolute top-[1322px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9577,7 +9582,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1332px] right-[320px] invisible xl:visible"
+                "absolute top-[1332px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9585,7 +9590,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1342px] right-[320px] invisible xl:visible"
+                "absolute top-[1342px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9593,7 +9598,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1352px] right-[320px] invisible xl:visible"
+                "absolute top-[1352px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9601,7 +9606,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1362px] right-[320px] invisible xl:visible"
+                "absolute top-[1362px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9609,7 +9614,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1372px] right-[320px] invisible xl:visible"
+                "absolute top-[1372px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9617,7 +9622,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1382px] right-[320px] invisible xl:visible"
+                "absolute top-[1382px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9625,7 +9630,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1392px] right-[320px] invisible xl:visible"
+                "absolute top-[1392px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
@@ -9633,7 +9638,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[1402px] right-[320px] invisible xl:visible"
+                "absolute top-[1402px] right-[320px] invisible xl:visible rotate-[180deg]"
               )
             ]),
             toList([text3("\u{10C31}")])
