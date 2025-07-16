@@ -7418,7 +7418,7 @@ function view(model) {
               div(
                 toList([
                   class$(
-                    "relative bottom-[147.5px] right-[22px] rotate-[270deg]"
+                    "relative bottom-[147px] right-[22px] rotate-[270deg]"
                   )
                 ]),
                 toList([text3("\u{10C3C}")])
@@ -7434,7 +7434,9 @@ function view(model) {
             toList([
               text3("\u{10C2C}"),
               div(
-                toList([class$("relative bottom-[55px] left-[5px]")]),
+                toList([
+                  class$("relative bottom-[56.5px] left-[5px]")
+                ]),
                 toList([text3("\u{10C3C}")])
               ),
               div(
@@ -7456,7 +7458,7 @@ function view(model) {
               div(
                 toList([
                   class$(
-                    "relative bottom-[147.5px] right-[22px] rotate-[270deg]"
+                    "relative bottom-[147px] right-[22px] rotate-[270deg]"
                   )
                 ]),
                 toList([text3("\u{10C3C}")])
@@ -7472,7 +7474,9 @@ function view(model) {
             toList([
               text3("\u{10C2C}"),
               div(
-                toList([class$("relative bottom-[55px] left-[5px]")]),
+                toList([
+                  class$("relative bottom-[56.5px] left-[5px]")
+                ]),
                 toList([text3("\u{10C3C}")])
               ),
               div(
@@ -7494,7 +7498,7 @@ function view(model) {
               div(
                 toList([
                   class$(
-                    "relative bottom-[147.5px] right-[22px] rotate-[270deg]"
+                    "relative bottom-[147px] right-[22px] rotate-[270deg]"
                   )
                 ]),
                 toList([text3("\u{10C3C}")])
@@ -7504,13 +7508,15 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[518px] right-[291px] rotate-[45deg] text-3xl invisible xl:visible"
+                "absolute top-[518px] right-[289px] rotate-[45deg] text-3xl invisible xl:visible"
               )
             ]),
             toList([
               text3("\u{10C2C}"),
               div(
-                toList([class$("relative bottom-[55px] left-[5px]")]),
+                toList([
+                  class$("relative bottom-[56.5px] left-[5px]")
+                ]),
                 toList([text3("\u{10C3C}")])
               ),
               div(
@@ -7532,7 +7538,7 @@ function view(model) {
               div(
                 toList([
                   class$(
-                    "relative bottom-[147.5px] right-[22px] rotate-[270deg]"
+                    "relative bottom-[147px] right-[22px] rotate-[270deg]"
                   )
                 ]),
                 toList([text3("\u{10C3C}")])

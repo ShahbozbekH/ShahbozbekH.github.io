@@ -660,8 +660,8 @@ video {
   bottom: 112.5px;
 }
 
-.bottom-\[147\.5px\] {
-  bottom: 147.5px;
+.bottom-\[147px\] {
+  bottom: 147px;
 }
 
 .bottom-\[149\.5px\] {
@@ -750,6 +750,10 @@ video {
 
 .bottom-\[55px\] {
   bottom: 55px;
+}
+
+.bottom-\[56\.5px\] {
+  bottom: 56.5px;
 }
 
 .bottom-\[569\.25px\] {
@@ -928,8 +932,8 @@ video {
   right: 280px;
 }
 
-.right-\[291px\] {
-  right: 291px;
+.right-\[289px\] {
+  right: 289px;
 }
 
 .right-\[319\.15px\] {
