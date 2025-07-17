@@ -146,7 +146,7 @@ fn view(model: Model) -> Element(Msg) {
   html.div([attribute.class("mx-auto max-w-3xl")], [
     html.nav([attribute.class("flex justify-center items-center my-16")], [
       html.h1(
-        [attribute.class("text-black-600 size-auto font-normal text-4xl")],
+        [attribute.class("text-black-600 size-auto font-normal text-4xl")],   
         [
           html.a([href(Index)], [html.text("Shahbozbek Hakimov")]),
           html.ul([attribute.class("flex justify-center space-x-8 text-xl")], [
@@ -214,7 +214,7 @@ fn view(model: Model) -> Element(Msg) {
         About -> view_about()
         NotFound(_) -> view_not_found()
       }
-    }), html.div([attribute.class("mx-auto ")], [html.div([attribute.class("absolute top-[2.5px] left-[320.15px] invisible xl:visible")], [html.text("𐰼")]),
+    }), html.div([attribute.class("")], [html.div([attribute.class("absolute top-[2.5px] left-[320.15px] invisible xl:visible")], [html.text("𐰼")]),
             html.div([attribute.class("absolute -top-[61.5px] left-[174px] rotate-[48deg] invisible xl:visible")],[
             html.div([attribute.class("")], [html.text("𐰮")]),
             html.div([attribute.class("relative -top-[16px] left-[0.01px]")], [html.text("𐰮")]),
@@ -746,17 +746,17 @@ fn view(model: Model) -> Element(Msg) {
               html.div([attribute.class("relative left-[0px] -top-[34px] rotate-[180deg] text-xl font-bold")],  [html.text("𐰐")]),
               html.div([attribute.class("relative -left-[10.75px] -top-[73px] rotate-[270deg] text-xl font-bold")], [html.text("𐰐")]),
           ]),
-          html.div([attribute.class("absolute top-[400px] right-[400px]")],
-                  [html.div([attribute.class("relative rotate-[80deg] text-[0.9rem] bottom-[7.5px] right-[6px] ")],[html.text("𐱈")]),
+          html.div([attribute.class("absolute top-[400px] right-[400px] invisible xl:visible")],
+                  [html.div([attribute.class("relative rotate-[82deg] font-bold text-[1.0rem] bottom-[6px] right-[6.5px] ")],[html.text("𐰡")]),
                   html.div([attribute.class("relative text-[1.50rem] bottom-[45px] left-[1px] rotate-[40deg]")],[html.text("𐰐")]),
-                  html.div([attribute.class("relative text-[0.9rem] bottom-[64.25px] right-[12px] rotate-[86deg]")],[html.text("𐱈")]),
-                  html.div([attribute.class("relative text-[0.3rem] bottom-[94px] left-[10px] -rotate-[20deg]")],[html.text("𐰼")]),
-                  html.div([attribute.class("relative text-[0.3rem] bottom-[102px] left-[6px] -rotate-[40deg]")],[html.text("𐰼")]),
-                  html.div([attribute.class("relative text-[0.3rem] bottom-[105px] left-[2px] -rotate-[40deg]")],[html.text("𐰼")]),
-                  html.div([attribute.class("relative text-[0.3rem] bottom-[114.25px] left-[4px] -rotate-[40deg]")],[html.text("𐰼")]),
-                  html.div([attribute.class("relative text-[0.7rem] bottom-[113px] right-[16.25px] -rotate-[2deg]")],[html.text("𐱆")]),
-                  html.div([attribute.class("relative text-[0.7rem] bottom-[125px] right-[10.5px] ")],[html.text("𐰒")]),
-                  html.div([attribute.class("relative text-[0.7rem] bottom-[143px] right-[2px] ")],[html.text("𐰒")]),
+                  html.div([attribute.class("relative text-[1.0rem] font-bold bottom-[68px] right-[17px] -rotate-[88deg]")],[html.text("𐰡")]),
+                  html.div([attribute.class("relative text-[0.5rem] bottom-[93px] left-[6px] rotate-[84deg]")],[html.text("𐰨")]),
+                  html.div([attribute.class("relative text-[0.4rem] bottom-[103px] left-[5px] rotate-[40deg]")],[html.text("𐰨")]),
+                  html.div([attribute.class("relative text-[0.4rem] bottom-[110px] left-[3px] rotate-[40deg]")],[html.text("𐰨")]),
+                  html.div([attribute.class("relative text-[0.9rem] bottom-[125px] right-[25px] -rotate-[90deg]")],[html.text("𐰽")]),
+                  html.div([attribute.class("relative text-[0.8rem] bottom-[136px] right-[20px] -scale-x-100 scale-y-75")],[html.text("𐰒")]),
+                  html.div([attribute.class("relative text-[0.8rem] bottom-[155.5px] right-[8px] -scale-x-100 scale-y-75")],[html.text("𐰒")]),
+                  html.div([attribute.class("relative text-[0.3rem] bottom-[173.5px] right-[6.5px] ")],[html.text("𐱇")]),
                   ]),
           html.div([attribute.class("absolute top-[12px] right-[320px] invisible xl:visible ")], [html.text("𐰱")]),
           html.div([attribute.class("absolute top-[22px] right-[320px] invisible xl:visible ")], [html.text("𐰱")]),
