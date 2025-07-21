@@ -6420,976 +6420,6 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[546px] right-[319px] invisible xl:visible"
-              )
-            ]),
-            toList([
-              text3("\u{10C02}"),
-              div(
-                toList([]),
-                toList([
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[25px] left-[5px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[45px] left-[5px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[73.15px] right-[5.15px] -rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[94.15px] right-[5.15px] -rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[112.5px] left-[10px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[149.5px] left-[10px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[155.75px] left-[15px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[202px] left-[15px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[199.25px] left-[20px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[254.50px] left-[20px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[242.75px] left-[25px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[306.75px] left-[25px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[286.25px] left-[30px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[359.25px] left-[30px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[329.75px] left-[35px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[411.75px] left-[35px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[373.25px] left-[40px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[464.25px] left-[40px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[416.75px] left-[45px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[516.75px] left-[45px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[460.25px] left-[50px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[569.25px] left-[50px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[503.75px] left-[55px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[621.75px] left-[55px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[547.25px] left-[60px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[674.25px] left-[60px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[590.75px] left-[65px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[726.75px] left-[65px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[631px] left-[70px] rotate-[180deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C43}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "absolute bottom-[718px] left-[140px] rotate-[180deg]"
-                      )
-                    ]),
-                    toList([
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[25px] left-[5px] rotate-[48deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[45px] left-[5px] rotate-[132deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[74px] right-[4px] -rotate-[48deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[94px] right-[4px] -rotate-[132deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[112.5px] left-[10px] rotate-[132deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[149.5px] left-[10px] rotate-[48deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[155.75px] left-[15px] rotate-[132deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[202px] left-[15px] rotate-[48deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[199.25px] left-[20px] rotate-[132deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[254.50px] left-[20px] rotate-[48deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[242.75px] left-[25px] rotate-[132deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[306.75px] left-[25px] rotate-[48deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[286.25px] left-[30px] rotate-[132deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[359.25px] left-[30px] rotate-[48deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[329.75px] left-[35px] rotate-[132deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[411.75px] left-[35px] rotate-[48deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[373.25px] left-[40px] rotate-[132deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[464.25px] left-[40px] rotate-[48deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[416.75px] left-[45px] rotate-[132deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[516.75px] left-[45px] rotate-[48deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[460.25px] left-[50px] rotate-[132deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[569.25px] left-[50px] rotate-[48deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[503.75px] left-[55px] rotate-[132deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[621.75px] left-[55px] rotate-[48deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[547.25px] left-[60px] rotate-[132deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[674.25px] left-[60px] rotate-[48deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[590.75px] left-[65px] rotate-[132deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[726.75px] left-[65px] rotate-[48deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C31}")])
-                      ),
-                      div(
-                        toList([
-                          class$(
-                            "relative bottom-[631px] left-[70px] rotate-[180deg]"
-                          )
-                        ]),
-                        toList([text3("\u{10C43}")])
-                      )
-                    ])
-                  )
-                ])
-              )
-            ])
-          ),
-          div(
-            toList([
-              class$(
-                "absolute -top-[148.50px] right-[319.15px] rotate-[180deg] invisible xl:visible"
-              )
-            ]),
-            toList([
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[25px] left-[5px] rotate-[48deg]"
-                  )
-                ]),
-                toList([text3("")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[45px] left-[5px] rotate-[132deg]"
-                  )
-                ]),
-                toList([text3("")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[73px] right-[5px] -rotate-[48deg]"
-                  )
-                ]),
-                toList([text3("")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[93px] right-[5px] -rotate-[132deg]"
-                  )
-                ]),
-                toList([text3("")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[112.5px] left-[10px] rotate-[132deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[149.5px] left-[10px] rotate-[48deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[155.75px] left-[15px] rotate-[132deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[202px] left-[15px] rotate-[48deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[199.25px] left-[20px] rotate-[132deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[254.50px] left-[20px] rotate-[48deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[242.75px] left-[25px] rotate-[132deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[306.75px] left-[25px] rotate-[48deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[286.25px] left-[30px] rotate-[132deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[359.25px] left-[30px] rotate-[48deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[329.75px] left-[35px] rotate-[132deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[411.75px] left-[35px] rotate-[48deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[373.25px] left-[40px] rotate-[132deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[464.25px] left-[40px] rotate-[48deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[416.75px] left-[45px] rotate-[132deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[516.75px] left-[45px] rotate-[48deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[460.25px] left-[50px] rotate-[132deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[569.25px] left-[50px] rotate-[48deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[503.75px] left-[55px] rotate-[132deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[621.75px] left-[55px] rotate-[48deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[547.25px] left-[60px] rotate-[132deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[674.25px] left-[60px] rotate-[48deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[590.75px] left-[65px] rotate-[132deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[726.75px] left-[65px] rotate-[48deg]"
-                  )
-                ]),
-                toList([text3("\u{10C31}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[631px] left-[70px] rotate-[180deg]"
-                  )
-                ]),
-                toList([text3("\u{10C43}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "absolute bottom-[718px] left-[140px] rotate-[180deg]"
-                  )
-                ]),
-                toList([
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[25px] left-[5px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[45px] left-[5px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[74px] right-[4px] -rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[94px] right-[4px] -rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[112.5px] left-[10px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[149.5px] left-[10px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[155.75px] left-[15px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[202px] left-[15px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[199.25px] left-[20px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[254.50px] left-[20px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[242.75px] left-[25px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[306.75px] left-[25px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[286.25px] left-[30px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[359.25px] left-[30px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[329.75px] left-[35px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[411.75px] left-[35px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[373.25px] left-[40px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[464.25px] left-[40px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[416.75px] left-[45px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[516.75px] left-[45px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[460.25px] left-[50px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[569.25px] left-[50px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[503.75px] left-[55px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[621.75px] left-[55px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[547.25px] left-[60px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[674.25px] left-[60px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[590.75px] left-[65px] rotate-[132deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[726.75px] left-[65px] rotate-[48deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C31}")])
-                  ),
-                  div(
-                    toList([
-                      class$(
-                        "relative bottom-[631px] left-[70px] rotate-[180deg]"
-                      )
-                    ]),
-                    toList([text3("\u{10C43}")])
-                  )
-                ])
-              )
-            ])
-          ),
-          div(
-            toList([
-              class$(
                 "absolute top-[518px] left-[191px] rotate-[45deg] text-3xl invisible xl:visible"
               )
             ]),
@@ -7429,86 +6459,6 @@ function view(model) {
             toList([
               class$(
                 "absolute top-[518px] left-[334px] rotate-[45deg] text-3xl invisible xl:visible"
-              )
-            ]),
-            toList([
-              text3("\u{10C2C}"),
-              div(
-                toList([
-                  class$("relative bottom-[56.5px] left-[5px]")
-                ]),
-                toList([text3("\u{10C3C}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[50px] right-[5px] rotate-[180deg]"
-                  )
-                ]),
-                toList([text3("\u{10C3C}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[101.5px] left-[22px] rotate-[90deg]"
-                  )
-                ]),
-                toList([text3("\u{10C3C}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[147px] right-[22px] rotate-[270deg]"
-                  )
-                ]),
-                toList([text3("\u{10C3C}")])
-              )
-            ])
-          ),
-          div(
-            toList([
-              class$(
-                "absolute top-[518px] right-[431px] rotate-[45deg] text-3xl invisible xl:visible"
-              )
-            ]),
-            toList([
-              text3("\u{10C2C}"),
-              div(
-                toList([
-                  class$("relative bottom-[56.5px] left-[5px]")
-                ]),
-                toList([text3("\u{10C3C}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[50px] right-[5px] rotate-[180deg]"
-                  )
-                ]),
-                toList([text3("\u{10C3C}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[101.5px] left-[22px] rotate-[90deg]"
-                  )
-                ]),
-                toList([text3("\u{10C3C}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative bottom-[147px] right-[22px] rotate-[270deg]"
-                  )
-                ]),
-                toList([text3("\u{10C3C}")])
-              )
-            ])
-          ),
-          div(
-            toList([
-              class$(
-                "absolute top-[518px] right-[289px] rotate-[45deg] text-3xl invisible xl:visible"
               )
             ]),
             toList([
@@ -8232,7 +7182,12 @@ function view(model) {
               )
             ]),
             toList([text3("\u{10C31}")])
-          ),
+          )
+        ])
+      ),
+      div(
+        toList([class$("")]),
+        toList([
           div(
             toList([
               class$(
@@ -8240,383 +7195,6 @@ function view(model) {
               )
             ]),
             toList([text3("\u{10C3C}")])
-          ),
-          div(
-            toList([
-              class$(
-                "absolute -top-[61.5px] right-[467.5px] rotate-[48deg] invisible  xl:visible"
-              )
-            ]),
-            toList([
-              div(
-                toList([class$("")]),
-                toList([text3("\u{10C2E}")])
-              ),
-              div(
-                toList([class$("relative -top-[16px] left-[0.01px]")]),
-                toList([text3("\u{10C2E}")])
-              ),
-              div(
-                toList([class$("relative -top-[30px] left-[0.01px]")]),
-                toList([text3("\u{10C2E}")])
-              ),
-              div(
-                toList([class$("relative -top-[44px] left-[0.01px]")]),
-                toList([text3("\u{10C2E}")])
-              ),
-              div(
-                toList([class$("relative -top-[58px] left-[0.01px]")]),
-                toList([text3("\u{10C2E}")])
-              ),
-              div(
-                toList([class$("relative -top-[72px] left-[0.01px]")]),
-                toList([text3("\u{10C2E}")])
-              ),
-              div(
-                toList([class$("relative -top-[86px] left-[0.01px]")]),
-                toList([text3("\u{10C2E}")])
-              ),
-              div(
-                toList([
-                  class$("relative -top-[100px] left-[0.01px]")
-                ]),
-                toList([text3("\u{10C2E}")])
-              ),
-              div(
-                toList([
-                  class$("relative -top-[114px] left-[0.01px]")
-                ]),
-                toList([text3("\u{10C2E}")])
-              ),
-              div(
-                toList([
-                  class$("relative -top-[128px] left-[0.01px]")
-                ]),
-                toList([text3("\u{10C2E}")])
-              ),
-              div(
-                toList([
-                  class$("relative -top-[142px] left-[0.01px]")
-                ]),
-                toList([text3("\u{10C2E}")])
-              ),
-              div(
-                toList([
-                  class$("relative -top-[156px] left-[0.01px]")
-                ]),
-                toList([text3("\u{10C2E}")])
-              ),
-              div(
-                toList([
-                  class$("relative -top-[170px] left-[0.01px]")
-                ]),
-                toList([text3("\u{10C2E}")])
-              ),
-              div(
-                toList([
-                  class$("relative -top-[184px] left-[0.01px]")
-                ]),
-                toList([text3("\u{10C2E}")])
-              ),
-              div(
-                toList([
-                  class$("relative -top-[198px] left-[0.01px]")
-                ]),
-                toList([text3("\u{10C2E}")])
-              ),
-              div(
-                toList([
-                  class$("relative -top-[212px] left-[0.01px]")
-                ]),
-                toList([text3("\u{10C2E}")])
-              ),
-              div(
-                toList([
-                  class$("relative -top-[226px] left-[0.01px]")
-                ]),
-                toList([text3("\u{10C2E}")])
-              )
-            ])
-          ),
-          div(
-            toList([
-              class$(
-                "absolute -top-[61.5px] right-[174px] -rotate-[48deg] invisible xl:visible"
-              )
-            ]),
-            toList([
-              div(
-                toList([class$("")]),
-                toList([text3("\u{10C2D}")])
-              ),
-              div(
-                toList([class$("relative -top-[16px] left-[0.01px]")]),
-                toList([text3("\u{10C2D}")])
-              ),
-              div(
-                toList([class$("relative -top-[30px] left-[0.01px]")]),
-                toList([text3("\u{10C2D}")])
-              ),
-              div(
-                toList([class$("relative -top-[44px] left-[0.01px]")]),
-                toList([text3("\u{10C2D}")])
-              ),
-              div(
-                toList([class$("relative -top-[58px] left-[0.01px]")]),
-                toList([text3("\u{10C2D}")])
-              ),
-              div(
-                toList([class$("relative -top-[72px] left-[0.01px]")]),
-                toList([text3("\u{10C2D}")])
-              ),
-              div(
-                toList([class$("relative -top-[86px] left-[0.01px]")]),
-                toList([text3("\u{10C2D}")])
-              ),
-              div(
-                toList([
-                  class$("relative -top-[100px] left-[0.01px]")
-                ]),
-                toList([text3("\u{10C2D}")])
-              ),
-              div(
-                toList([
-                  class$("relative -top-[114px] left-[0.01px]")
-                ]),
-                toList([text3("\u{10C2D}")])
-              ),
-              div(
-                toList([
-                  class$("relative -top-[128px] left-[0.01px]")
-                ]),
-                toList([text3("\u{10C2D}")])
-              ),
-              div(
-                toList([
-                  class$("relative -top-[142px] left-[0.01px]")
-                ]),
-                toList([text3("\u{10C2D}")])
-              ),
-              div(
-                toList([
-                  class$("relative -top-[156px] left-[0.01px]")
-                ]),
-                toList([text3("\u{10C2D}")])
-              ),
-              div(
-                toList([
-                  class$("relative -top-[170px] left-[0.01px]")
-                ]),
-                toList([text3("\u{10C2D}")])
-              ),
-              div(
-                toList([
-                  class$("relative -top-[184px] left-[0.01px]")
-                ]),
-                toList([text3("\u{10C2D}")])
-              ),
-              div(
-                toList([
-                  class$("relative -top-[198px] left-[0.01px]")
-                ]),
-                toList([text3("\u{10C2D}")])
-              ),
-              div(
-                toList([
-                  class$("relative -top-[212px] left-[0.01px]")
-                ]),
-                toList([text3("\u{10C2D}")])
-              ),
-              div(
-                toList([
-                  class$("relative -top-[226px] left-[0.01px]")
-                ]),
-                toList([text3("\u{10C2D}")])
-              )
-            ])
-          ),
-          div(
-            toList([
-              class$(
-                "absolute top-[75px] right-[280px] invisible font-bold invisible xl:visible"
-              )
-            ]),
-            toList([
-              div(
-                toList([
-                  class$(
-                    "relative left-[1px] top-[26.5px] text-[0.5rem]"
-                  )
-                ]),
-                toList([text3("")])
-              ),
-              div(
-                toList([class$("relative text-xl font-bold")]),
-                toList([text3("\u{10C10}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative -right-[11px] -top-[17px] rotate-[90deg] text-xl font-bold"
-                  )
-                ]),
-                toList([text3("\u{10C10}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative left-[0px] -top-[34px] rotate-[180deg] text-xl font-bold"
-                  )
-                ]),
-                toList([text3("\u{10C10}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative -left-[10.75px] -top-[73px] rotate-[270deg] text-xl font-bold"
-                  )
-                ]),
-                toList([text3("\u{10C10}")])
-              )
-            ])
-          ),
-          div(
-            toList([
-              class$(
-                "absolute top-[75px] right-[360px] invisible font-bold invisible xl:visible"
-              )
-            ]),
-            toList([
-              div(
-                toList([
-                  class$(
-                    "relative left-[1px] top-[26.5px] text-[0.5rem]"
-                  )
-                ]),
-                toList([text3("")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative text-xl font-bold transform scaleX(-1)"
-                  )
-                ]),
-                toList([text3("\u{10C10}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative -right-[11px] -top-[17px] rotate-[90deg] text-xl font-bold"
-                  )
-                ]),
-                toList([text3("\u{10C10}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative left-[0px] -top-[34px] rotate-[180deg] text-xl font-bold"
-                  )
-                ]),
-                toList([text3("\u{10C10}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative -left-[10.75px] -top-[73px] rotate-[270deg] text-xl font-bold"
-                  )
-                ]),
-                toList([text3("\u{10C10}")])
-              )
-            ])
-          ),
-          div(
-            toList([
-              class$(
-                "absolute top-[400px] right-[400px] invisible xl:visible"
-              )
-            ]),
-            toList([
-              div(
-                toList([
-                  class$(
-                    "relative rotate-[82deg] font-bold text-[1.0rem] bottom-[6px] right-[6.5px] "
-                  )
-                ]),
-                toList([text3("\u{10C21}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative text-[1.50rem] bottom-[45px] left-[1px] rotate-[40deg]"
-                  )
-                ]),
-                toList([text3("\u{10C10}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative text-[1.0rem] font-bold bottom-[68px] right-[17px] -rotate-[88deg]"
-                  )
-                ]),
-                toList([text3("\u{10C21}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative text-[0.5rem] bottom-[93px] left-[6px] rotate-[84deg]"
-                  )
-                ]),
-                toList([text3("\u{10C28}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative text-[0.4rem] bottom-[103px] left-[5px] rotate-[40deg]"
-                  )
-                ]),
-                toList([text3("\u{10C28}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative text-[0.4rem] bottom-[110px] left-[3px] rotate-[40deg]"
-                  )
-                ]),
-                toList([text3("\u{10C28}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative text-[0.9rem] bottom-[125px] right-[25px] -rotate-[90deg]"
-                  )
-                ]),
-                toList([text3("\u{10C3D}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative text-[0.8rem] bottom-[136px] right-[20px] -scale-x-100 scale-y-75"
-                  )
-                ]),
-                toList([text3("\u{10C12}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative text-[0.8rem] bottom-[155.5px] right-[8px] -scale-x-100 scale-y-75"
-                  )
-                ]),
-                toList([text3("\u{10C12}")])
-              ),
-              div(
-                toList([
-                  class$(
-                    "relative text-[0.3rem] bottom-[173.5px] right-[6.5px] "
-                  )
-                ]),
-                toList([text3("\u{10C47}")])
-              )
-            ])
           ),
           div(
             toList([
@@ -9737,6 +8315,1433 @@ function view(model) {
               )
             ]),
             toList([text3("\u{10C31}")])
+          ),
+          div(
+            toList([
+              class$(
+                "absolute -top-[61.5px] right-[174px] -rotate-[48deg] invisible xl:visible"
+              )
+            ]),
+            toList([
+              div(
+                toList([class$("")]),
+                toList([text3("\u{10C2D}")])
+              ),
+              div(
+                toList([class$("relative -top-[16px] left-[0.01px]")]),
+                toList([text3("\u{10C2D}")])
+              ),
+              div(
+                toList([class$("relative -top-[30px] left-[0.01px]")]),
+                toList([text3("\u{10C2D}")])
+              ),
+              div(
+                toList([class$("relative -top-[44px] left-[0.01px]")]),
+                toList([text3("\u{10C2D}")])
+              ),
+              div(
+                toList([class$("relative -top-[58px] left-[0.01px]")]),
+                toList([text3("\u{10C2D}")])
+              ),
+              div(
+                toList([class$("relative -top-[72px] left-[0.01px]")]),
+                toList([text3("\u{10C2D}")])
+              ),
+              div(
+                toList([class$("relative -top-[86px] left-[0.01px]")]),
+                toList([text3("\u{10C2D}")])
+              ),
+              div(
+                toList([
+                  class$("relative -top-[100px] left-[0.01px]")
+                ]),
+                toList([text3("\u{10C2D}")])
+              ),
+              div(
+                toList([
+                  class$("relative -top-[114px] left-[0.01px]")
+                ]),
+                toList([text3("\u{10C2D}")])
+              ),
+              div(
+                toList([
+                  class$("relative -top-[128px] left-[0.01px]")
+                ]),
+                toList([text3("\u{10C2D}")])
+              ),
+              div(
+                toList([
+                  class$("relative -top-[142px] left-[0.01px]")
+                ]),
+                toList([text3("\u{10C2D}")])
+              ),
+              div(
+                toList([
+                  class$("relative -top-[156px] left-[0.01px]")
+                ]),
+                toList([text3("\u{10C2D}")])
+              ),
+              div(
+                toList([
+                  class$("relative -top-[170px] left-[0.01px]")
+                ]),
+                toList([text3("\u{10C2D}")])
+              ),
+              div(
+                toList([
+                  class$("relative -top-[184px] left-[0.01px]")
+                ]),
+                toList([text3("\u{10C2D}")])
+              ),
+              div(
+                toList([
+                  class$("relative -top-[198px] left-[0.01px]")
+                ]),
+                toList([text3("\u{10C2D}")])
+              ),
+              div(
+                toList([
+                  class$("relative -top-[212px] left-[0.01px]")
+                ]),
+                toList([text3("\u{10C2D}")])
+              ),
+              div(
+                toList([
+                  class$("relative -top-[226px] left-[0.01px]")
+                ]),
+                toList([text3("\u{10C2D}")])
+              )
+            ])
+          ),
+          div(
+            toList([
+              class$(
+                "absolute top-[75px] right-[280px] invisible font-bold invisible xl:visible"
+              )
+            ]),
+            toList([
+              div(
+                toList([
+                  class$(
+                    "relative left-[1px] top-[26.5px] text-[0.5rem]"
+                  )
+                ]),
+                toList([text3("")])
+              ),
+              div(
+                toList([class$("relative text-xl font-bold")]),
+                toList([text3("\u{10C10}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative -right-[11px] -top-[17px] rotate-[90deg] text-xl font-bold"
+                  )
+                ]),
+                toList([text3("\u{10C10}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative left-[0px] -top-[34px] rotate-[180deg] text-xl font-bold"
+                  )
+                ]),
+                toList([text3("\u{10C10}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative -left-[10.75px] -top-[73px] rotate-[270deg] text-xl font-bold"
+                  )
+                ]),
+                toList([text3("\u{10C10}")])
+              )
+            ])
+          ),
+          div(
+            toList([
+              class$(
+                "absolute top-[75px] right-[360px] invisible font-bold invisible xl:visible"
+              )
+            ]),
+            toList([
+              div(
+                toList([
+                  class$(
+                    "relative left-[1px] top-[26.5px] text-[0.5rem]"
+                  )
+                ]),
+                toList([text3("")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative text-xl font-bold transform scaleX(-1)"
+                  )
+                ]),
+                toList([text3("\u{10C10}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative -right-[11px] -top-[17px] rotate-[90deg] text-xl font-bold"
+                  )
+                ]),
+                toList([text3("\u{10C10}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative left-[0px] -top-[34px] rotate-[180deg] text-xl font-bold"
+                  )
+                ]),
+                toList([text3("\u{10C10}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative -left-[10.75px] -top-[73px] rotate-[270deg] text-xl font-bold"
+                  )
+                ]),
+                toList([text3("\u{10C10}")])
+              )
+            ])
+          ),
+          div(
+            toList([
+              class$(
+                "absolute top-[400px] right-[400px] invisible xl:visible"
+              )
+            ]),
+            toList([
+              div(
+                toList([
+                  class$(
+                    "relative rotate-[82deg] font-bold text-[1.0rem] bottom-[6px] right-[6.5px] "
+                  )
+                ]),
+                toList([text3("\u{10C21}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative text-[1.50rem] bottom-[45px] left-[1px] rotate-[40deg]"
+                  )
+                ]),
+                toList([text3("\u{10C10}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative text-[1.0rem] font-bold bottom-[68px] right-[17px] -rotate-[88deg]"
+                  )
+                ]),
+                toList([text3("\u{10C21}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative text-[0.5rem] bottom-[93px] left-[6px] rotate-[84deg]"
+                  )
+                ]),
+                toList([text3("\u{10C28}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative text-[0.4rem] bottom-[103px] left-[5px] rotate-[40deg]"
+                  )
+                ]),
+                toList([text3("\u{10C28}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative text-[0.4rem] bottom-[110px] left-[3px] rotate-[40deg]"
+                  )
+                ]),
+                toList([text3("\u{10C28}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative text-[0.9rem] bottom-[125px] right-[25px] -rotate-[90deg]"
+                  )
+                ]),
+                toList([text3("\u{10C3D}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative text-[0.8rem] bottom-[136px] right-[20px] -scale-x-100 scale-y-75"
+                  )
+                ]),
+                toList([text3("\u{10C12}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative text-[0.8rem] bottom-[155.5px] right-[8px] -scale-x-100 scale-y-75"
+                  )
+                ]),
+                toList([text3("\u{10C12}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative text-[0.3rem] bottom-[173.5px] right-[6.5px] "
+                  )
+                ]),
+                toList([text3("\u{10C47}")])
+              )
+            ])
+          ),
+          div(
+            toList([
+              class$(
+                "absolute -top-[61.5px] right-[467.5px] rotate-[48deg] invisible  xl:visible"
+              )
+            ]),
+            toList([
+              div(
+                toList([class$("")]),
+                toList([text3("\u{10C2E}")])
+              ),
+              div(
+                toList([class$("relative -top-[16px] left-[0.01px]")]),
+                toList([text3("\u{10C2E}")])
+              ),
+              div(
+                toList([class$("relative -top-[30px] left-[0.01px]")]),
+                toList([text3("\u{10C2E}")])
+              ),
+              div(
+                toList([class$("relative -top-[44px] left-[0.01px]")]),
+                toList([text3("\u{10C2E}")])
+              ),
+              div(
+                toList([class$("relative -top-[58px] left-[0.01px]")]),
+                toList([text3("\u{10C2E}")])
+              ),
+              div(
+                toList([class$("relative -top-[72px] left-[0.01px]")]),
+                toList([text3("\u{10C2E}")])
+              ),
+              div(
+                toList([class$("relative -top-[86px] left-[0.01px]")]),
+                toList([text3("\u{10C2E}")])
+              ),
+              div(
+                toList([
+                  class$("relative -top-[100px] left-[0.01px]")
+                ]),
+                toList([text3("\u{10C2E}")])
+              ),
+              div(
+                toList([
+                  class$("relative -top-[114px] left-[0.01px]")
+                ]),
+                toList([text3("\u{10C2E}")])
+              ),
+              div(
+                toList([
+                  class$("relative -top-[128px] left-[0.01px]")
+                ]),
+                toList([text3("\u{10C2E}")])
+              ),
+              div(
+                toList([
+                  class$("relative -top-[142px] left-[0.01px]")
+                ]),
+                toList([text3("\u{10C2E}")])
+              ),
+              div(
+                toList([
+                  class$("relative -top-[156px] left-[0.01px]")
+                ]),
+                toList([text3("\u{10C2E}")])
+              ),
+              div(
+                toList([
+                  class$("relative -top-[170px] left-[0.01px]")
+                ]),
+                toList([text3("\u{10C2E}")])
+              ),
+              div(
+                toList([
+                  class$("relative -top-[184px] left-[0.01px]")
+                ]),
+                toList([text3("\u{10C2E}")])
+              ),
+              div(
+                toList([
+                  class$("relative -top-[198px] left-[0.01px]")
+                ]),
+                toList([text3("\u{10C2E}")])
+              ),
+              div(
+                toList([
+                  class$("relative -top-[212px] left-[0.01px]")
+                ]),
+                toList([text3("\u{10C2E}")])
+              ),
+              div(
+                toList([
+                  class$("relative -top-[226px] left-[0.01px]")
+                ]),
+                toList([text3("\u{10C2E}")])
+              )
+            ])
+          ),
+          div(
+            toList([
+              class$(
+                "absolute top-[518px] right-[431px] rotate-[45deg] text-3xl invisible xl:visible"
+              )
+            ]),
+            toList([
+              text3("\u{10C2C}"),
+              div(
+                toList([
+                  class$("relative bottom-[56.5px] left-[5px]")
+                ]),
+                toList([text3("\u{10C3C}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[50px] right-[5px] rotate-[180deg]"
+                  )
+                ]),
+                toList([text3("\u{10C3C}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[101.5px] left-[22px] rotate-[90deg]"
+                  )
+                ]),
+                toList([text3("\u{10C3C}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[147px] right-[22px] rotate-[270deg]"
+                  )
+                ]),
+                toList([text3("\u{10C3C}")])
+              )
+            ])
+          ),
+          div(
+            toList([
+              class$(
+                "absolute top-[518px] right-[289px] rotate-[45deg] text-3xl invisible xl:visible"
+              )
+            ]),
+            toList([
+              text3("\u{10C2C}"),
+              div(
+                toList([
+                  class$("relative bottom-[56.5px] left-[5px]")
+                ]),
+                toList([text3("\u{10C3C}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[50px] right-[5px] rotate-[180deg]"
+                  )
+                ]),
+                toList([text3("\u{10C3C}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[101.5px] left-[22px] rotate-[90deg]"
+                  )
+                ]),
+                toList([text3("\u{10C3C}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[147px] right-[22px] rotate-[270deg]"
+                  )
+                ]),
+                toList([text3("\u{10C3C}")])
+              )
+            ])
+          ),
+          div(
+            toList([
+              class$(
+                "absolute -top-[148.50px] right-[319.15px] rotate-[180deg] invisible xl:visible"
+              )
+            ]),
+            toList([
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[25px] left-[5px] rotate-[48deg]"
+                  )
+                ]),
+                toList([text3("")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[45px] left-[5px] rotate-[132deg]"
+                  )
+                ]),
+                toList([text3("")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[73px] right-[5px] -rotate-[48deg]"
+                  )
+                ]),
+                toList([text3("")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[93px] right-[5px] -rotate-[132deg]"
+                  )
+                ]),
+                toList([text3("")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[112.5px] left-[10px] rotate-[132deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[149.5px] left-[10px] rotate-[48deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[155.75px] left-[15px] rotate-[132deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[202px] left-[15px] rotate-[48deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[199.25px] left-[20px] rotate-[132deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[254.50px] left-[20px] rotate-[48deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[242.75px] left-[25px] rotate-[132deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[306.75px] left-[25px] rotate-[48deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[286.25px] left-[30px] rotate-[132deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[359.25px] left-[30px] rotate-[48deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[329.75px] left-[35px] rotate-[132deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[411.75px] left-[35px] rotate-[48deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[373.25px] left-[40px] rotate-[132deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[464.25px] left-[40px] rotate-[48deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[416.75px] left-[45px] rotate-[132deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[516.75px] left-[45px] rotate-[48deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[460.25px] left-[50px] rotate-[132deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[569.25px] left-[50px] rotate-[48deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[503.75px] left-[55px] rotate-[132deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[621.75px] left-[55px] rotate-[48deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[547.25px] left-[60px] rotate-[132deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[674.25px] left-[60px] rotate-[48deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[590.75px] left-[65px] rotate-[132deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[726.75px] left-[65px] rotate-[48deg]"
+                  )
+                ]),
+                toList([text3("\u{10C31}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "relative bottom-[631px] left-[70px] rotate-[180deg]"
+                  )
+                ]),
+                toList([text3("\u{10C43}")])
+              ),
+              div(
+                toList([
+                  class$(
+                    "absolute bottom-[718px] left-[140px] rotate-[180deg]"
+                  )
+                ]),
+                toList([
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[25px] left-[5px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[45px] left-[5px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[74px] right-[4px] -rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[94px] right-[4px] -rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[112.5px] left-[10px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[149.5px] left-[10px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[155.75px] left-[15px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[202px] left-[15px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[199.25px] left-[20px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[254.50px] left-[20px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[242.75px] left-[25px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[306.75px] left-[25px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[286.25px] left-[30px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[359.25px] left-[30px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[329.75px] left-[35px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[411.75px] left-[35px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[373.25px] left-[40px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[464.25px] left-[40px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[416.75px] left-[45px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[516.75px] left-[45px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[460.25px] left-[50px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[569.25px] left-[50px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[503.75px] left-[55px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[621.75px] left-[55px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[547.25px] left-[60px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[674.25px] left-[60px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[590.75px] left-[65px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[726.75px] left-[65px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[631px] left-[70px] rotate-[180deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C43}")])
+                  )
+                ])
+              )
+            ])
+          ),
+          div(
+            toList([
+              class$(
+                "absolute top-[546px] right-[319px] invisible xl:visible"
+              )
+            ]),
+            toList([
+              text3("\u{10C02}"),
+              div(
+                toList([]),
+                toList([
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[25px] left-[5px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[45px] left-[5px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[73.15px] right-[5.15px] -rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[94.15px] right-[5.15px] -rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[112.5px] left-[10px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[149.5px] left-[10px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[155.75px] left-[15px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[202px] left-[15px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[199.25px] left-[20px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[254.50px] left-[20px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[242.75px] left-[25px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[306.75px] left-[25px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[286.25px] left-[30px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[359.25px] left-[30px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[329.75px] left-[35px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[411.75px] left-[35px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[373.25px] left-[40px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[464.25px] left-[40px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[416.75px] left-[45px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[516.75px] left-[45px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[460.25px] left-[50px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[569.25px] left-[50px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[503.75px] left-[55px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[621.75px] left-[55px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[547.25px] left-[60px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[674.25px] left-[60px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[590.75px] left-[65px] rotate-[132deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[726.75px] left-[65px] rotate-[48deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C31}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "relative bottom-[631px] left-[70px] rotate-[180deg]"
+                      )
+                    ]),
+                    toList([text3("\u{10C43}")])
+                  ),
+                  div(
+                    toList([
+                      class$(
+                        "absolute bottom-[718px] left-[140px] rotate-[180deg]"
+                      )
+                    ]),
+                    toList([
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[25px] left-[5px] rotate-[48deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[45px] left-[5px] rotate-[132deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[74px] right-[4px] -rotate-[48deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[94px] right-[4px] -rotate-[132deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[112.5px] left-[10px] rotate-[132deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[149.5px] left-[10px] rotate-[48deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[155.75px] left-[15px] rotate-[132deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[202px] left-[15px] rotate-[48deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[199.25px] left-[20px] rotate-[132deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[254.50px] left-[20px] rotate-[48deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[242.75px] left-[25px] rotate-[132deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[306.75px] left-[25px] rotate-[48deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[286.25px] left-[30px] rotate-[132deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[359.25px] left-[30px] rotate-[48deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[329.75px] left-[35px] rotate-[132deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[411.75px] left-[35px] rotate-[48deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[373.25px] left-[40px] rotate-[132deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[464.25px] left-[40px] rotate-[48deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[416.75px] left-[45px] rotate-[132deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[516.75px] left-[45px] rotate-[48deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[460.25px] left-[50px] rotate-[132deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[569.25px] left-[50px] rotate-[48deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[503.75px] left-[55px] rotate-[132deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[621.75px] left-[55px] rotate-[48deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[547.25px] left-[60px] rotate-[132deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[674.25px] left-[60px] rotate-[48deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[590.75px] left-[65px] rotate-[132deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[726.75px] left-[65px] rotate-[48deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C31}")])
+                      ),
+                      div(
+                        toList([
+                          class$(
+                            "relative bottom-[631px] left-[70px] rotate-[180deg]"
+                          )
+                        ]),
+                        toList([text3("\u{10C43}")])
+                      )
+                    ])
+                  )
+                ])
+              )
+            ])
           )
         ])
       )
