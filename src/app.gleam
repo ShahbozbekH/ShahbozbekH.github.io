@@ -954,13 +954,13 @@ fn view_index() -> List(Element(msg)) {
   [
     html.p([attribute.class("text-sm md:px-32")], [
       html.text(
-        "Hello, I'm Shahbozbek Hakimov. This is my personal website for sharing my progress and thoughts. I hope to fill this space with interesting content soon. In the meantime, check out my resume ",
+        "Hello, I'm Shahbozbek Hakimov. This is my personal website for sharing my progress and thoughts. I hope to fill this space with interesting content soon.",
       ),
-      link(Resume, "(or click here):"),
+      link(Resume, ""),
     ]),
     html.img([
       attribute.class("mx-auto"),
-      attribute.src("http://shahbozbekh.github.io/priv/static/media/0.png"),
+      attribute.src(""),
     ]),
   ]
 }

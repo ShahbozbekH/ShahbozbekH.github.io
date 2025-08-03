@@ -4586,17 +4586,12 @@ function view_index() {
       toList([class$("text-sm md:px-32")]),
       toList([
         text3(
-          "Hello, I'm Shahbozbek Hakimov. This is my personal website for sharing my progress and thoughts. I hope to fill this space with interesting content soon. In the meantime, check out my resume "
+          "Hello, I'm Shahbozbek Hakimov. This is my personal website for sharing my progress and thoughts. I hope to fill this space with interesting content soon."
         ),
-        link(new Resume2(), "(or click here):")
+        link(new Resume2(), "")
       ])
     ),
-    img(
-      toList([
-        class$("mx-auto"),
-        src("http://shahbozbekh.github.io/priv/static/media/0.png")
-      ])
-    )
+    img(toList([class$("mx-auto"), src("")]))
   ]);
 }
 function view_post(model, post_id) {
