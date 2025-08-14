@@ -4964,7 +4964,7 @@ function view(model) {
           div(
             toList([
               class$(
-                "absolute top-[75px] left-[280px] font-bold invisible  xl:visible"
+                "absolute top-[75px] left-[280px] font-bold invisible xl:visible"
               )
             ]),
             toList([
@@ -8424,13 +8424,15 @@ function view(model) {
                 toList([text3("")])
               ),
               div(
-                toList([class$("relative text-xl font-bold")]),
+                toList([
+                  class$("relative text-xl font-bold -scale-x-100")
+                ]),
                 toList([text3("\u{10C10}")])
               ),
               div(
                 toList([
                   class$(
-                    "relative -right-[11px] -top-[17px] rotate-[90deg] text-xl font-bold"
+                    "relative -right-[11px] -top-[17px] rotate-[90deg] text-xl font-bold -scale-x-100"
                   )
                 ]),
                 toList([text3("\u{10C10}")])
@@ -8438,7 +8440,7 @@ function view(model) {
               div(
                 toList([
                   class$(
-                    "relative left-[0px] -top-[34px] rotate-[180deg] text-xl font-bold"
+                    "relative left-[0px] -top-[34px] rotate-[180deg] text-xl font-bold -scale-x-100"
                   )
                 ]),
                 toList([text3("\u{10C10}")])
@@ -8446,7 +8448,7 @@ function view(model) {
               div(
                 toList([
                   class$(
-                    "relative -left-[10.75px] -top-[73px] rotate-[270deg] text-xl font-bold"
+                    "relative -left-[10.75px] -top-[73px] rotate-[270deg] text-xl font-bold -scale-x-100"
                   )
                 ]),
                 toList([text3("\u{10C10}")])
@@ -8471,7 +8473,7 @@ function view(model) {
               div(
                 toList([
                   class$(
-                    "relative text-xl font-bold transform scaleX(-1)"
+                    "relative text-xl font-bold transform -scale-x-100"
                   )
                 ]),
                 toList([text3("\u{10C10}")])
@@ -8479,7 +8481,7 @@ function view(model) {
               div(
                 toList([
                   class$(
-                    "relative -right-[11px] -top-[17px] rotate-[90deg] text-xl font-bold"
+                    "relative -right-[11px] -top-[17px] rotate-[90deg] text-xl font-bold -scale-x-100 "
                   )
                 ]),
                 toList([text3("\u{10C10}")])
@@ -8487,7 +8489,7 @@ function view(model) {
               div(
                 toList([
                   class$(
-                    "relative left-[0px] -top-[34px] rotate-[180deg] text-xl font-bold"
+                    "relative left-[0px] -top-[34px] rotate-[180deg] text-xl font-bold -scale-x-100"
                   )
                 ]),
                 toList([text3("\u{10C10}")])
@@ -8495,7 +8497,7 @@ function view(model) {
               div(
                 toList([
                   class$(
-                    "relative -left-[10.75px] -top-[73px] rotate-[270deg] text-xl font-bold"
+                    "relative -left-[10.75px] -top-[73px] rotate-[270deg] text-xl font-bold -scale-x-100"
                   )
                 ]),
                 toList([text3("\u{10C10}")])
