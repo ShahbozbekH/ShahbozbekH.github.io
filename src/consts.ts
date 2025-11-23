@@ -1,7 +1,7 @@
 import type { IconMap, SocialLink, Site } from '@/types'
 
 export const SITE: Site = {
-  title: 'Shahbozbek Hakimov',
+  title: 'shahboz.wiki',
   description:
     'Personal blog where I post about myself and my experiences.',
   href: 'https://shahboz.wiki',
@@ -15,10 +15,6 @@ export const NAV_LINKS: SocialLink[] = [
   {
     href: '/blog',
     label: 'blog',
-  },
-  {
-    href: '/authors',
-    label: 'authors',
   },
   {
     href: '/about',
