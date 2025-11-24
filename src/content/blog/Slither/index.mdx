@@ -6,4 +6,47 @@ tags: ['Programming']
 image: './ebpf-libbpf-core.png'
 ---
 
-..
+## How Slither Came to Be
+
+About two months back, for reasons irrelevant to this blog post, I found myself researching protocol stacks and how the Linux kernel worked to unpack incoming packets. After much research, I found that no matter how many blog posts, slides, or convoluted diagrams I went through, I failed to fully grasp packet processing within the Linux kernel. Although, I did find a recurring acronym throughout the many resources, "eBPF". After researching some more about eBPF, I realized that it would be a great way to learn about the kernel without having to directly modify it. Having learned that the original Berkeley Packet Filter was created as a way to filter out undesirable packets as they entered the kernel (today with eBPF, a greater variety of tools are developed using the system), I looked to find more recent methods of defending against DoS attacks. With most methods of defending against DoS attack leaning more towards machine learning, [a method](https://www.researchgate.net/publication/377321387_Verification_of_State_Based_Slow_HTTP_DDoS_Prevention_Method) stood out as a more static measure against DoS attacks, specifically SLOW attacks. I spent the next month and a half, implementing this method through eBPF. Titled ["Slither"](https://github.com/ShahbozbekH/Slither), a portmanteau of slow and filter. The rest of this post speaks less on the method itself and more on how to get started in programming an eBPF tool.
+
+## Starting Out
+
+### Resources
+Like with most things kernel related, the learning curve is made greater by the varying levels of documentation available. What I found to be an excellent source of knowledge on the topic is the [book](https://cilium.isovalent.com/hubfs/Learning-eBPF%20-%20Full%20book.pdf), "Learning eBPF Programming the Linux Kernel for Enhanced Observability, Networking, and Security" by Liz Rice. This book does a really great job in assuming you know nothing, which helped me out a ton since I really didn't know anything.
+
+### Initial Mistakes
+One of the mistakes I made early on was in choosing a way to implement the method. From traffic control to kprobes, there were many ways to implement an HTTP filter. As a result, I kept hopping back and forth between the different methods of implementation which wasted a lot of valuable time that could've gone towards development. In retrospect, to avoid this I would have most likely started out with intercepting the packet with XDP and progressing through the kernel stack if need be. Another mistake I will speak more about later, is the choice of library I used to develop Slither.
+
+### Debugging
+I can't explain how important bpf_printk() or bpf_trace_printk() functions were during development. There are other ways to debug or send debug info to the user space, but I found reading from the trace_pipe to be the simplest. Although, I would advise against writing too many print statements as they are very costly in resources and may result in bugs if your code is dependent on a race condition.
+
+## Developing the Kernel-End
+
+### Resources
+"Learning eBPF" (alongside its repo) is a resource I kept coming back to throughout development, its abundance of diagrams helped immensely in understanding kernel/user-space communications, data structures, etc. Although, more than conceptual knowledge is required to develop an eBPF tool, I will list some off some great resources to use as references:
+1. The [BCC repo](https://github.com/iovisor/bcc) on github holds not only [documentation of the BCC library](https://github.com/iovisor/bcc/blob/master/docs/reference_guide.md) but, also [tools](https://github.com/iovisor/bcc/tree/master/tools) developed using the library which could be used as references. If you have chosen libbpf as your library of choice for development, the repo will still be of use, as the previously mentioned tools have been redeveloped using libbpf and can be found in the [repo](https://github.com/iovisor/bcc/tree/master/libbpf-tools).
+2. One of the maintainers of libbpf, "Andrii Nakryiko", has a [blog](https://nakryiko.com/) with several posts that were very helpful in understanding the libbpf library as well as CO-RE programming. One of the posts is on converting a tool from BCC to libbpf, which saved me from starting over completely.
+3. The last reference was github. A simple query of the specific function/variable you are wanting to use, yields enough use cases for you to fully understand how to properly use that specific function/variable.
+
+### libbpf vs. libbcc and Starting Over
+What I realized after 2-3 weeks of struggling to implement the method using BCC was that the absence of support for bounded loops was too much of a handicap in my situation and I had to start over using libbpf. Luckily, the transition did not mean I had to completely trash my work, as much of the code was mutually intelligible with the eBPF data structs and helper functions being the only parts needing adjustment. This is not to say that libbpf is superior to libbcc, as it really depends on your specific use case. If you're wanting to develop a tool that won't require too many (>8193) jumps to function, BCC does the compilation and loading operations for you, reducing development time. Although you are able to use both libraries, one of [Andrii Nakryiko's posts](https://nakryiko.com/posts/bcc-to-libbpf-howto-guide/) goes over exactly this.
+
+## Finishing Up
+
+### Makefile 
+I was initially intimidated by the walls of scripts I would bet met with, clicking on Makefiles for CO-RE/libbpf tools. Although, creating a makefile for my use case was made simple by the references available within the BCC and the Learning eBPF repositories. One issue I had was failing to include the -g flag when compiling the kernel code (Andrii Nakryiko mentions this in one of his posts). Without this flag, the .o file can't be loaded into the kernel, and the error returned might send you in the wrong direction ("BTF is required, but is missing or corrupted.").
+
+### User-End
+User-End code, much like the Makefile, the user-end code is standard throughout use cases, so look at tools similar to yours within the BCC repo and see how they wrote their user-end code. In short, the user-end code is mainly:
+1. Load the different files and functions you created within the order that you want them to be loaded in.
+2. Ensuring each function and file loads without errors, cleaning up and exiting if not.
+3. Setting up a loop that runs until the user exits the program (If constant communication between kernel and user is implemented, it is read and written here).
+
+## Retrospect
+In retrospect, I would have spent more time learning about the different libraries. From first impressions, BCC seemed much simpler to work with, and yet it is what cost me several weeks of development. Overall, I found the eBPF development experience to be a lot of fun, and I have a much better understanding of the network stack not only in Linux but also other systems. Afterall, network communication is standard throughout the world and systems and as result Microsoft has been developing an eBPF library of their own for the Windows operating systems. Slither, being my first eBPF project, is not also my last. I hope to develop a tool that will actually see some use in a major open-source project.
+
+
+## Cover Image Credit
+Credit to: https://cylab.be/blog/406/getting-started-with-libbpf-tracking-execve-syscalls-with-ebpf-and-co-re
+
